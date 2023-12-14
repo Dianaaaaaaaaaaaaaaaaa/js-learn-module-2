@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 37.2</title>
+</head>
+<body>
+    <script>
+        function season(numberOfMounth) {
+            if (numberOfMounth >= 1 && numberOfMounth <= 2 || numberOfMounth === 12) {
+                return 'winter';
+            }
+            if (numberOfMounth >= 3 && numberOfMounth <= 5) {
+                return 'spring';
+            }
+            if (numberOfMounth >= 6 && numberOfMounth <= 8) {
+                return 'summer';
+            }
+            if (numberOfMounth >= 10 && numberOfMounth <= 11) {
+                return 'autumn';
+            }
+        }
+        console.log(season(5));
+
+    </script>
+</body>
+</html>
